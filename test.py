@@ -1,16 +1,17 @@
-a = (10, 20, -30, 44.54, "hello", 'abc')
+num = range(20, 50, 5)
 
-print(a[0]) # to access loction of characters in string
-print(a[1:4]) # var_name[starting_index, ending_index]
-print(a[1:]) # it will print everything after [1]
-print(a[-1]) # it will print last index of string
-a[2] = -50
-# Traceback (most recent call last):
-#   File "C:\Users\S7r337 H4ck3r\Desktop\python\practice\test.py", line 8, in <module>
-#     a[2] = -50
-# TypeError: 'tuple' object does not support item assignment
+# range(any number)
+# range(1,20)
+# range(20(starting_index), 50(ending_index), 2(step_size))
+# for i in range(any_number/range): print(i)
+# list(range(any_number))
 
-print(a)
+lst = list(range(10))
+print(lst)
+
+# to print each character on new line
+for i in lst:
+   print(i, end="\n")
 
 
 
